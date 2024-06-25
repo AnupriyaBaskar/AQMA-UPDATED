@@ -1,0 +1,134 @@
+[14-Feb-2024 10:46:54 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\HP\Local Sites\demousage\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[14-Feb-2024 10:48:06 UTC] PHP Warning:  file_get_contents(C:\Users\HP\Local Sites\demousage\app\public/wp-content/plugins/ocean-extra/ocean-extra.php): Failed to open stream: No such file or directory in C:\Users\HP\Local Sites\demousage\app\public\wp-includes\functions.php on line 6805
+[15-Feb-2024 09:00:23 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[19-Feb-2024 05:59:50 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[21-Feb-2024 09:44:46 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php on line 2425
+[21-Feb-2024 09:44:46 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php on line 2449
+[21-Feb-2024 09:44:46 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php on line 2449
+[21-Feb-2024 09:44:46 UTC] PHP Warning:  Attempt to read property "labels" on null in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php on line 2467
+[21-Feb-2024 09:44:46 UTC] PHP Warning:  Attempt to read property "name" on null in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php on line 2467
+[21-Feb-2024 09:44:46 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php on line 2468
+[21-Feb-2024 09:44:46 UTC] PHP Fatal error:  Uncaught Exception: Undefined field name. in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\models\model\record.php:148
+Stack trace:
+#0 C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php(2524): PMXI_Model_Record->__get('name')
+#1 C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\plugin.php(681): PMXI_Admin_Import->process()
+#2 C:\Users\HP\Local Sites\demousage\app\public\wp-includes\class-wp-hook.php(324): PMXI_Plugin->adminDispatcher('')
+#3 C:\Users\HP\Local Sites\demousage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\Users\HP\Local Sites\demousage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\HP\Local Sites\demousage\app\public\wp-admin\admin.php(259): do_action('all-import_page...')
+#6 {main}
+  thrown in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\models\model\record.php on line 148
+[21-Feb-2024 09:51:26 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php on line 2425
+[21-Feb-2024 09:51:26 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php on line 2449
+[21-Feb-2024 09:51:26 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php on line 2449
+[21-Feb-2024 09:51:26 UTC] PHP Warning:  Attempt to read property "labels" on null in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php on line 2467
+[21-Feb-2024 09:51:26 UTC] PHP Warning:  Attempt to read property "name" on null in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php on line 2467
+[21-Feb-2024 09:51:26 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php on line 2468
+[21-Feb-2024 09:51:26 UTC] PHP Fatal error:  Uncaught Exception: Undefined field name. in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\models\model\record.php:148
+Stack trace:
+#0 C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php(2524): PMXI_Model_Record->__get('name')
+#1 C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\plugin.php(681): PMXI_Admin_Import->process()
+#2 C:\Users\HP\Local Sites\demousage\app\public\wp-includes\class-wp-hook.php(324): PMXI_Plugin->adminDispatcher('')
+#3 C:\Users\HP\Local Sites\demousage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\Users\HP\Local Sites\demousage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\HP\Local Sites\demousage\app\public\wp-admin\admin.php(259): do_action('all-import_page...')
+#6 {main}
+  thrown in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\models\model\record.php on line 148
+[21-Feb-2024 09:55:43 UTC] PHP Warning:  file_put_contents(C:\Users\HP\Local Sites\demousage\app\public/wp-content/uploads/smack_uci_uploads/exports/.htaccess): Failed to open stream: No such file or directory in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-ultimate-exporter\wp-ultimate-exporter.php on line 164
+[21-Feb-2024 09:55:44 UTC] PHP Warning:  file_put_contents(C:\Users\HP\Local Sites\demousage\app\public/wp-content/uploads/smack_uci_uploads/exports/.htaccess): Failed to open stream: No such file or directory in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-ultimate-exporter\wp-ultimate-exporter.php on line 164
+[21-Feb-2024 09:55:44 UTC] PHP Warning:  file_put_contents(C:\Users\HP\Local Sites\demousage\app\public/wp-content/uploads/smack_uci_uploads/exports/.htaccess): Failed to open stream: No such file or directory in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-ultimate-exporter\wp-ultimate-exporter.php on line 164
+[21-Feb-2024 09:55:44 UTC] PHP Warning:  file_put_contents(C:\Users\HP\Local Sites\demousage\app\public/wp-content/uploads/smack_uci_uploads/exports/.htaccess): Failed to open stream: No such file or directory in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-ultimate-exporter\wp-ultimate-exporter.php on line 164
+[21-Feb-2024 09:56:44 UTC] PHP Warning:  file_put_contents(C:\Users\HP\Local Sites\demousage\app\public/wp-content/uploads/smack_uci_uploads/exports/.htaccess): Failed to open stream: No such file or directory in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-ultimate-exporter\wp-ultimate-exporter.php on line 164
+[21-Feb-2024 09:56:53 UTC] PHP Warning:  file_put_contents(C:\Users\HP\Local Sites\demousage\app\public/wp-content/uploads/smack_uci_uploads/exports/.htaccess): Failed to open stream: No such file or directory in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-ultimate-exporter\wp-ultimate-exporter.php on line 164
+[21-Feb-2024 09:56:53 UTC] PHP Warning:  file_put_contents(C:\Users\HP\Local Sites\demousage\app\public/wp-content/uploads/smack_uci_uploads/exports/.htaccess): Failed to open stream: No such file or directory in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-ultimate-csv-importer\wp-ultimate-csv-importer.php on line 458
+[21-Feb-2024 09:58:12 UTC] PHP Fatal error:  Uncaught ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-ultimate-csv-importer\uploadModules\ValidateFile.php:149
+Stack trace:
+#0 C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-ultimate-csv-importer\uploadModules\ValidateFile.php(149): array_combine(Array, Array)
+#1 C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-ultimate-csv-importer\uploadModules\ValidateFile.php(98): Smackcoders\FCSV\ValidateFile->validateCSV('C:\\Users\\HP\\Loc...', ',')
+#2 C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-ultimate-csv-importer\uploadModules\DesktopUpload.php(100): Smackcoders\FCSV\ValidateFile->file_validation('C:\\Users\\HP\\Loc...', 'csv')
+#3 C:\Users\HP\Local Sites\demousage\app\public\wp-includes\class-wp-hook.php(324): Smackcoders\FCSV\DesktopUpload->upload_function('')
+#4 C:\Users\HP\Local Sites\demousage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 C:\Users\HP\Local Sites\demousage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\HP\Local Sites\demousage\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_get_des...')
+#7 {main}
+  thrown in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-ultimate-csv-importer\uploadModules\ValidateFile.php on line 149
+[21-Feb-2024 09:58:25 UTC] PHP Fatal error:  Uncaught ValueError: max(): Argument #1 ($value) must contain at least one element in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-ultimate-csv-importer\uploadModules\ValidateFile.php:200
+Stack trace:
+#0 C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-ultimate-csv-importer\uploadModules\ValidateFile.php(200): max(Array)
+#1 C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-ultimate-csv-importer\uploadModules\ValidateFile.php(97): Smackcoders\FCSV\ValidateFile->getFileDelimiter(Object(SplFileObject), 5)
+#2 C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-ultimate-csv-importer\uploadModules\DesktopUpload.php(100): Smackcoders\FCSV\ValidateFile->file_validation('C:\\Users\\HP\\Loc...', 'csv')
+#3 C:\Users\HP\Local Sites\demousage\app\public\wp-includes\class-wp-hook.php(324): Smackcoders\FCSV\DesktopUpload->upload_function('')
+#4 C:\Users\HP\Local Sites\demousage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 C:\Users\HP\Local Sites\demousage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\HP\Local Sites\demousage\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_get_des...')
+#7 {main}
+  thrown in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-ultimate-csv-importer\uploadModules\ValidateFile.php on line 200
+[21-Feb-2024 10:15:18 UTC] PHP Warning:  Undefined array key "custom_type" in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\plugin.php on line 868
+[21-Feb-2024 10:15:18 UTC] PHP Warning:  Undefined array key "custom_type" in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\plugin.php on line 868
+[21-Feb-2024 10:33:23 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php on line 2425
+[21-Feb-2024 10:33:23 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php on line 2449
+[21-Feb-2024 10:33:23 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php on line 2449
+[21-Feb-2024 10:33:23 UTC] PHP Warning:  Attempt to read property "labels" on null in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php on line 2467
+[21-Feb-2024 10:33:23 UTC] PHP Warning:  Attempt to read property "name" on null in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php on line 2467
+[21-Feb-2024 10:33:23 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php on line 2468
+[21-Feb-2024 10:33:23 UTC] PHP Fatal error:  Uncaught Exception: Undefined field name. in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\models\model\record.php:148
+Stack trace:
+#0 C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\controllers\admin\import.php(2524): PMXI_Model_Record->__get('name')
+#1 C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\plugin.php(681): PMXI_Admin_Import->process()
+#2 C:\Users\HP\Local Sites\demousage\app\public\wp-includes\class-wp-hook.php(324): PMXI_Plugin->adminDispatcher('')
+#3 C:\Users\HP\Local Sites\demousage\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\Users\HP\Local Sites\demousage\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\HP\Local Sites\demousage\app\public\wp-admin\admin.php(259): do_action('all-import_page...')
+#6 {main}
+  thrown in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wp-all-import\models\model\record.php on line 148
+[21-Feb-2024 11:33:12 UTC] WordPress database error Table 'local.wp_export_page_to_html_logs' doesn't exist for query SELECT id FROM wp_export_page_to_html_logs made by activate_plugin, do_action('activate_export-wp-page-to-static-html/export-wp-page-to-static-html.php'), WP_Hook->do_action, WP_Hook->apply_filters, activate_export_wp_page_to_static_html, Export_Wp_Page_To_Static_Html_Activator::activate
+[21-Feb-2024 11:33:12 UTC] WordPress database error Table 'local.wp_export_urls_logs' doesn't exist for query SELECT id FROM wp_export_urls_logs made by activate_plugin, do_action('activate_export-wp-page-to-static-html/export-wp-page-to-static-html.php'), WP_Hook->do_action, WP_Hook->apply_filters, activate_export_wp_page_to_static_html, Export_Wp_Page_To_Static_Html_Activator::activate
+[21-Feb-2024 11:33:13 UTC] PHP Warning:  dir(C:\Users\HP\Local Sites\demousage\app\public/wp-content/uploads/exported_html_files/): The system cannot find the file specifi (code: 2) in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\export-wp-page-to-static-html\admin\partials\Tabs\all-exported-files.php on line 6
+[21-Feb-2024 11:33:13 UTC] PHP Warning:  dir(C:\Users\HP\Local Sites\demousage\app\public/wp-content/uploads/exported_html_files/): Failed to open directory: No such file or directory in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\export-wp-page-to-static-html\admin\partials\Tabs\all-exported-files.php on line 6
+[23-Feb-2024 05:53:28 UTC] PHP Warning:  Undefined array key "ninja_forms_templates" in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\royal-elementor-addons\modules\forms\widgets\wpr-forms.php on line 2408
+[23-Feb-2024 05:53:32 UTC] PHP Warning:  Attempt to read property "post_content" on array in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wpforms-lite\src\Frontend\Frontend.php on line 215
+[23-Feb-2024 05:53:32 UTC] PHP Warning:  Attempt to read property "ID" on array in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wpforms-lite\src\Frontend\Frontend.php on line 216
+[23-Feb-2024 05:53:32 UTC] PHP Warning:  Attempt to read property "ID" on array in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wpforms-lite\src\Frontend\Frontend.php on line 373
+[23-Feb-2024 05:54:42 UTC] PHP Warning:  Attempt to read property "post_content" on array in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wpforms-lite\src\Frontend\Frontend.php on line 215
+[23-Feb-2024 05:54:42 UTC] PHP Warning:  Attempt to read property "ID" on array in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wpforms-lite\src\Frontend\Frontend.php on line 216
+[23-Feb-2024 05:54:42 UTC] PHP Warning:  Attempt to read property "ID" on array in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wpforms-lite\src\Frontend\Frontend.php on line 373
+[27-Feb-2024 08:46:04 UTC] Cron reschedule event error for hook: wp_version_check, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[27-Feb-2024 10:47:31 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[28-Feb-2024 04:36:05 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[28-Feb-2024 04:36:05 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[28-Feb-2024 08:54:58 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[13-Mar-2024 06:39:46 UTC] PHP Warning:  Undefined array key "url" in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wpforms-lite\src\Forms\IconChoices.php on line 127
+[13-Mar-2024 06:39:46 UTC] PHP Warning:  Undefined array key "path" in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wpforms-lite\src\Forms\IconChoices.php on line 128
+[13-Mar-2024 06:39:57 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[13-Mar-2024 06:39:59 UTC] Cron reschedule event error for hook: elementor/tracker/send_event, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[13-Mar-2024 06:39:59 UTC] Cron unschedule event error for hook: elementor/tracker/send_event, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[13-Mar-2024 06:39:59 UTC] Cron reschedule event error for hook: monsterinsights_usage_tracking_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"weekly","args":[],"interval":604800}
+[13-Mar-2024 06:39:59 UTC] Cron unschedule event error for hook: monsterinsights_usage_tracking_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"weekly","args":[],"interval":604800}
+[13-Mar-2024 06:39:59 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[13-Mar-2024 06:39:59 UTC] Cron unschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[13-Mar-2024 06:39:59 UTC] Cron reschedule event error for hook: wpptsh_daily_schedules, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[13-Mar-2024 06:39:59 UTC] Cron unschedule event error for hook: wpptsh_daily_schedules, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[13-Mar-2024 06:40:16 UTC] Cron reschedule event error for hook: frm_daily_event, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[15-Mar-2024 08:42:59 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[18-Mar-2024 04:09:12 UTC] Cron reschedule event error for hook: monsterinsights_email_summaries_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"monsterinsights_email_summaries_monthly","args":[],"interval":2592000}
+[02-Apr-2024 05:12:24 UTC] PHP Warning:  Undefined array key "url" in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wpforms-lite\src\Forms\IconChoices.php on line 127
+[02-Apr-2024 05:12:24 UTC] PHP Warning:  Undefined array key "path" in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\wpforms-lite\src\Forms\IconChoices.php on line 128
+[04-Jun-2024 04:13:52 UTC] PHP Warning:  file_get_contents(http://api.myrecorp.com/wpptsh_notices.php?version=free&amp;url=http://demousage.local): Failed to open stream: HTTP request failed! HTTP/1.1 406 Not Acceptable
+ in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\export-wp-page-to-static-html\includes\global_functions.php on line 12
+[13-Jun-2024 05:00:15 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[13-Jun-2024 05:00:16 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[13-Jun-2024 05:00:16 UTC] Cron unschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[13-Jun-2024 05:00:16 UTC] Cron reschedule event error for hook: wp_version_check, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[13-Jun-2024 05:00:16 UTC] Cron unschedule event error for hook: wp_version_check, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[13-Jun-2024 05:00:16 UTC] Cron reschedule event error for hook: wp_update_plugins, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[13-Jun-2024 05:00:16 UTC] Cron unschedule event error for hook: wp_update_plugins, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[13-Jun-2024 05:00:17 UTC] PHP Warning:  file_get_contents(http://api.myrecorp.com/wpptsh_notices.php?version=free&amp;url=http://demousage.local): Failed to open stream: HTTP request failed! HTTP/1.1 406 Not Acceptable
+ in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\export-wp-page-to-static-html\includes\global_functions.php on line 12
+[13-Jun-2024 05:00:18 UTC] PHP Warning:  file_get_contents(http://api.myrecorp.com/wpptsh_notices.php?version=free&amp;url=http://demousage.local): Failed to open stream: HTTP request failed! HTTP/1.1 406 Not Acceptable
+ in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\export-wp-page-to-static-html\includes\global_functions.php on line 12
+[13-Jun-2024 05:00:35 UTC] Cron reschedule event error for hook: wpforms_email_summaries_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_email_summaries_weekly","args":[],"interval":604800}
+[13-Jun-2024 05:47:34 UTC] PHP Warning:  file_put_contents(C:\Users\HP\Local Sites\demousage\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1718256899\/feed/index.html): Failed to open stream: No such file or directory in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 380
+[24-Jun-2024 06:36:20 UTC] PHP Warning:  file_get_contents(http://api.myrecorp.com/wpptsh_notices.php?version=free&amp;url=http://demousage.local): Failed to open stream: HTTP request failed! HTTP/1.1 406 Not Acceptable
+ in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\export-wp-page-to-static-html\includes\global_functions.php on line 12
+[25-Jun-2024 04:45:31 UTC] PHP Warning:  file_get_contents(http://api.myrecorp.com/wpptsh_notices.php?version=free&amp;url=http://demousage.local): Failed to open stream: HTTP request failed! HTTP/1.1 406 Not Acceptable
+ in C:\Users\HP\Local Sites\demousage\app\public\wp-content\plugins\export-wp-page-to-static-html\includes\global_functions.php on line 12

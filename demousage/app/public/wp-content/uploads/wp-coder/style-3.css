@@ -1,0 +1,8 @@
+ .data td, th{
+            border: 1px solid #ddd;
+            padding: 18px;
+        }
+
+        .data tr:nth-child(even){background-color: #f2f2f2;}
+
+        .data tr:hover {background-color: #ddd;}

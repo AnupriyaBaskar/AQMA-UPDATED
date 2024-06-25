@@ -1,0 +1,69 @@
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 1140px;
+}
+
+h1{
+  position: relative;
+  margin-bottom: 45px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 44px;
+  text-transform: uppercase;
+  color: #424242;
+}
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+  
+  &:hover{
+    flex: 7;
+  }
+}
+
+.item-1 { 
+  background-image: url('http://demousage.local/wp-content/uploads/2024/02/dataset-cover.jpg');
+}
+
+.item-2 { 
+  background-image: url('http://demousage.local/wp-content/uploads/2024/02/20190821_145947-2-1.jpg');
+}
+
+.item-3 { 
+  background-image: url('http://demousage.local/wp-content/uploads/2024/02/ImageForArticle_391.webp');
+}
+
+.item-4 { 
+  background-image: url('http://demousage.local/wp-content/uploads/2024/02/image-24.webp');
+}
+
+.item-5 { 
+  background-image: url('http://demousage.local/wp-content/uploads/2024/02/Oizom_Accurate_And_Affordable_Air_Quality_Monitoring_Solutions.webp');
+}
+
+.item-6 { 
+  background-image: url('http://demousage.local/wp-content/uploads/2024/02/A-pair-of-designers-working-on-a-CAD-assignment.jpg');
+}
+
+  
+img{
+    display: block;
+    width: 32px;
+}
